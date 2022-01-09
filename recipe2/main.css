@@ -1,0 +1,118 @@
+h2{
+    display:block;
+    text-align: center;
+    font-size:20px;
+    text-decoration:underline;
+    color:#494747;
+    /* text-decoration-color:#6d6969; */
+    text-decoration-color:#777474;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 10px;
+    width:100%;
+}
+
+dl{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+dt{
+    width:70%;
+}
+dd{
+    width:10%;
+}
+dt, dd, li{
+    text-decoration:underline dotted;
+    text-decoration-color:#777474;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 10px;
+    margin-bottom:10px;
+    margin-top:10px;
+    /* border-bottom: dotted 3px orange; */
+}
+
+
+
+.introduction{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.introduction > img{
+    width: 50%;
+    /* width:100px; */
+    height: 800px;
+    object-fit: cover;
+}
+
+.introduction>p{
+    width:50%;
+}
+
+.desc{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ingredient{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.ingredient_list{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+/* レシピ一覧リンク */
+
+.recipe_list{
+    margin:50px;
+    display: flex;
+    justify-content: center;
+}
+
+.recipe_list_button{
+    display: inline;
+    border: 1px solid #000000;
+    /* margin:30px; */
+    padding-left:50px;
+    padding-right:50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* フッター */
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.SNS{
+    display:flex;
+    justify-content: center;
+}
+
+.SNS>a{
+    color:#000000;
+    font-size: 12px;
+    text-decoration:underline;
+    text-decoration-color:#000000;
+    text-decoration-thickness: 1px;
+    margin:10px;
+}
+
+.copyright{
+    font-size:10px;
+    display:flex;
+    justify-content: center;
+}
